@@ -5,7 +5,7 @@ public class one
 Scanner scanner = new Scanner(System.in);
 String firstName = scanner.nextLine();
 String lastName = scanner.nextLine();
-String fullName = firstName +' '+ lastName;
+String fullName = firstName +"\n \n"+ lastName;
 System.out.println(fullName);
     }
 }   
